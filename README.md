@@ -62,10 +62,10 @@ Use the same `session_id` to continue the conversation.
 
 ### Book an interview: `POST /api/v1/chat`
 ```json
-{ "session_id": "test1", "message": "I want to book an interview. My name is Ram Sharma, email ram@example.com, on 2026-11-05 at 10:30" }
+{ "session_id": "test1", "message": "I want to book an interview. My name is Sachin Bista, email sachin@example.com, on 2026-11-05 at 10:30" }
 ```
 ```json
-{ "booking_created": true, "booking": { "id": 1, "name": "Ram Sharma", "email": "ram@example.com", "interview_date": "2026-11-05", "interview_time": "10:30:00", "status": "pending" } }
+{ "booking_created": true, "booking": { "id": 1, "name": "Sachin Bista", "email": "sachin@example.com", "interview_date": "2026-11-05", "interview_time": "10:30:00", "status": "pending" } }
 ```
 If any details are missing, the assistant asks for them and you can reply in the next message.
 
